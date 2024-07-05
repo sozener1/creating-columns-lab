@@ -26,6 +26,7 @@ h4 {
 img:hover {
   transition-duration: 1s;
   transform: scale(1.05);
+  
 }
 
 .amiable {
@@ -47,5 +48,33 @@ img:hover {
 }
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
+.column {
+  
+}
 
+.small {
+  display: inline-block;
+  width: 33%;
+  
+}
+
+.medium {
+  display: inline-block;
+  width: 66%;
+
+}
+
+.large {
+  width: 100%;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+.medium .small-img {
+  display: inline-block;
+  width: 49%;
+}
 /* create your tile classes! we recommend .small .med .large */
